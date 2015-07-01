@@ -1,0 +1,56 @@
+
+.wg-feature {
+	border: solid 1px $c-module-border-light;
+	padding: $box-spacing;
+	margin-bottom:  $box-spacing;
+	overflow: hidden;
+	.wg-row {
+		margin-bottom: $b-margin-bottom;
+		&:after {
+			@include clearfix;
+		}
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+	.wg-full, .wg-wide, .wg-small {
+		display: inline;
+		float: left;
+		/* height: 250px; */
+	}
+	.wg-full {
+		width: 100%;
+	}
+	.wg-wide {
+		width: 66%;
+		margin-right: 2%;
+	}
+	.wg-small {
+		width: 32%;
+		margin-right: 2%;
+	}
+
+	.wg-full img, .wg-wide img, .wg-small img {
+		width: 100%;
+    max-width: 100%;
+		height: 100%;
+		&:hidden {
+    	display: none;
+    }
+	}
+
+	.wg-last {
+		margin-right: 0;
+	}
+
+	@include bp(max-width, $bp-medium) {
+		.wg-full, .wg-wide, .wg-small {
+			width: 100%;
+			margin-right: 0;
+			margin-bottom: $b-margin-bottom;
+		}
+		.wg-row {
+			margin-bottom: 0;
+		}
+	}
+}

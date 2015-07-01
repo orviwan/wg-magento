@@ -1,0 +1,38 @@
+@font-face {
+        font-family:'Archer-Medium';
+        src: url('../fonts/Archer-Medium_gdi.eot');
+        src: url('../fonts/Archer-Medium_gdi.eot?#iefix') format('embedded-opentype'),
+                url('../fonts/Archer-Medium_gdi.woff') format('woff'),
+                url('../fonts/Archer-Medium_gdi.ttf') format('truetype'),
+                url('../fonts/Archer-Medium_gdi.svg#Archer-Medium') format('svg');
+        font-weight: 700;
+        font-style: normal;
+        font-stretch: normal;
+        unicode-range: U+0020-2212;
+}
+
+@font-face {
+        font-family:'GothamBold-Regular';
+        src: url('../fonts/GothamBold_gdi.eot');
+        src: url('../fonts/GothamBold_gdi.eot?#iefix') format('embedded-opentype'),
+                url('../fonts/GothamBold_gdi.woff') format('woff'),
+                url('../fonts/GothamBold_gdi.ttf') format('truetype'),
+                url('../fonts/GothamBold_gdi.svg#GothamBold-Regular') format('svg');
+        font-weight: 700;
+        font-style: normal;
+        font-stretch: normal;
+        unicode-range: U+0020-2248;
+}
+
+@font-face {
+        font-family:'MarketOT-Regular';
+        src: url('../fonts/MarketOT_gdi.eot');
+        src: url('../fonts/MarketOT_gdi.eot?#iefix') format('embedded-opentype'),
+                url('../fonts/MarketOT_gdi.woff') format('woff'),
+                url('../fonts/MarketOT_gdi.ttf') format('truetype'),
+                url('../fonts/MarketOT_gdi.svg#MarketOT-Regular') format('svg');
+        font-weight: 1000;
+        font-style: normal;
+        font-stretch: normal;
+        unicode-range: U+0020-25CA;
+}
