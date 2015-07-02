@@ -1529,6 +1529,7 @@ span.weee {
     border-top: 1px solid $c-module-border;
     background: $c-module-background;
     padding: 5px 10px 0px 10px;
+    clear: both;
 
     &:after {
         @include clearfix;
@@ -1556,6 +1557,10 @@ span.weee {
 .pager-no-toolbar label {
     font-weight: normal;
     text-transform: uppercase;
+}
+
+.toolbar-bottom {
+    display: none;
 }
 
 $toolbar-icon-padding-offset: 8px;

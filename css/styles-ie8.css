@@ -1831,6 +1831,7 @@ span.weee {
   border-top: 1px solid #CCCCCC;
   background: #f0f0f0;
   padding: 5px 10px 0px 10px;
+  clear: both;
 }
 .toolbar:after {
   content: '';
@@ -1858,6 +1859,10 @@ span.weee {
 .pager-no-toolbar label {
   font-weight: normal;
   text-transform: uppercase;
+}
+
+.toolbar-bottom {
+  display: none;
 }
 
 .sorter {
