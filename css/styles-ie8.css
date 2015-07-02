@@ -8470,7 +8470,7 @@ div.calendar table td.button {
 .wg-feature .wg-row:last-of-type {
   margin-bottom: 0;
 }
-.wg-feature .wg-full, .wg-feature .wg-wide, .wg-feature .wg-small {
+.wg-feature .wg-full, .wg-feature .wg-wide, .wg-feature .wg-small, .wg-feature .wg-half {
   display: inline;
   float: left;
   /* height: 250px; */
@@ -8482,16 +8482,20 @@ div.calendar table td.button {
   width: 66%;
   margin-right: 2%;
 }
+.wg-feature .wg-half {
+  width: 49%;
+  margin-right: 2%;
+}
 .wg-feature .wg-small {
   width: 32%;
   margin-right: 2%;
 }
-.wg-feature .wg-full img, .wg-feature .wg-wide img, .wg-feature .wg-small img {
+.wg-feature .wg-full img, .wg-feature .wg-wide img, .wg-feature .wg-half img, .wg-feature .wg-small img {
   width: 100%;
   max-width: 100%;
   height: 100%;
 }
-.wg-feature .wg-full img:hidden, .wg-feature .wg-wide img:hidden, .wg-feature .wg-small img:hidden {
+.wg-feature .wg-full img:hidden, .wg-feature .wg-wide img:hidden, .wg-feature .wg-half img:hidden, .wg-feature .wg-small img:hidden {
   display: none;
 }
 .wg-feature .wg-last {
