@@ -2769,7 +2769,7 @@ body {
 }
 
 .logo {
-  max-width: 300px;
+  max-width: 230px;
   min-height: 90px;
 }
 .logo .small {
@@ -2869,7 +2869,7 @@ a.skip-link {
  * ============================================ */
 .account-cart-wrapper {
   position: absolute;
-  top: 0px;
+  top: 12px;
   right: 0px;
 }
 
@@ -2877,6 +2877,7 @@ a.skip-link {
   position: absolute;
   top: 5px;
   left: 240px;
+  margin-right: 245px;
 }
 
 .nav-top li.level0 a.level0 {

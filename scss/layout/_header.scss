@@ -145,7 +145,7 @@
 @include bp(min-width, $bp-medium + 1) {
 
     .logo {
-        max-width: 300px;
+        max-width: 230px;
         min-height: 90px;
 
         .small {
@@ -331,7 +331,7 @@ a.skip-link {
 
 .account-cart-wrapper {
     position: absolute;
-    top:0px;
+    top:12px;
     right:0px;
 
     @include bp(max-width, $bp-medium) {
@@ -346,6 +346,7 @@ a.skip-link {
         position: absolute;
         top: 5px;
         left: 240px;
+        margin-right: 245px
 
 
     }
