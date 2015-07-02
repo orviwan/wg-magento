@@ -574,19 +574,19 @@ a.button:hover {
 
 .breadcrumbs {
     overflow: hidden;
-    margin: -15px 0 15px;
+    margin: -15px 0 15px -7px;
 }
 
 .breadcrumbs li {
     float: left;
     font-size: $f-size-xs;
-    font-family: $f-stack-special;
+    font-family: $f-stack-sans;
     text-transform: uppercase;
 }
 
 .breadcrumbs a {
     float: left;
-    color: $c-text;
+    
 }
 
 .breadcrumbs a:hover {
@@ -594,13 +594,14 @@ a.button:hover {
 }
 
 .breadcrumbs strong {
-    color: $c-text;
+    color: scale-lightness($c-text, 30%);
     font-weight: normal;
 }
 
 .breadcrumbs span {
     float: left;
     padding: 0 7px;
+    color: scale-lightness($c-text, 30%);
 }
 
 @include bp(max-width, $bp-medium) {

@@ -996,19 +996,18 @@ a.button:hover {
  */
 .breadcrumbs {
   overflow: hidden;
-  margin: -15px 0 15px;
+  margin: -15px 0 15px -7px;
 }
 
 .breadcrumbs li {
   float: left;
   font-size: 12px;
-  font-family: "GothamBold-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
 
 .breadcrumbs a {
   float: left;
-  color: #53494a;
 }
 
 .breadcrumbs a:hover {
@@ -1016,13 +1015,14 @@ a.button:hover {
 }
 
 .breadcrumbs strong {
-  color: #53494a;
+  color: #8b7b7d;
   font-weight: normal;
 }
 
 .breadcrumbs span {
   float: left;
   padding: 0 7px;
+  color: #8b7b7d;
 }
 
 /* -------------------------------------------- *
@@ -2980,7 +2980,7 @@ a.skip-link {
   /* Level 1+ */
 }
 .nav-primary a.level0 {
-  padding: 0 25px;
+  padding: 0 15px;
 }
 .nav-primary li.level0,
 .nav-primary a.level0 {
