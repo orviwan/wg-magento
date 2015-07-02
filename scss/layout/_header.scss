@@ -37,6 +37,7 @@
 
     .page-header-container {
         position: relative;
+        margin-top: 10px;
     }
 
 }
@@ -331,12 +332,12 @@ a.skip-link {
 
 .account-cart-wrapper {
     position: absolute;
-    top:12px;
+    top:26px;
     right:0px;
 
     @include bp(max-width, $bp-medium) {
         position: static;
-    }
+    } 
 }
 
 
@@ -344,7 +345,7 @@ a.skip-link {
 
     .nav-top {
         position: absolute;
-        top: 17px;
+        top: 32px;
         left: 255px;
         margin-right: 250px
 

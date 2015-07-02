@@ -2698,6 +2698,7 @@ body {
 
 .page-header-container {
   position: relative;
+  margin-top: 10px;
 }
 
 .page-header {
@@ -2874,13 +2875,13 @@ a.skip-link {
  * ============================================ */
 .account-cart-wrapper {
   position: absolute;
-  top: 12px;
+  top: 26px;
   right: 0px;
 }
 
 .nav-top {
   position: absolute;
-  top: 17px;
+  top: 32px;
   left: 255px;
   margin-right: 250px;
 }
@@ -2936,7 +2937,7 @@ a.skip-link {
  * ============================================ */
 .nav-primary {
   display: block;
-  margin-top: 15px;
+  margin-top: 0;
 }
 
 /* ============================================ *
@@ -3072,10 +3073,9 @@ a.skip-link {
 #header-search {
   display: block;
   position: absolute;
-  top: 55px;
+  top: 0;
   right: 0;
-  width: 25%;
-  height: 50px;
+  width: 20%;
   padding: 0;
 }
 
@@ -3093,9 +3093,8 @@ a.skip-link {
 
 #search {
   width: 100%;
-  height: 40px;
+  height: 30px;
   padding-right: 40px;
-  font-family: "GothamBold-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #search_mini_form .search-button {
@@ -3104,7 +3103,7 @@ a.skip-link {
   top: 0;
   right: 0;
   width: 40px;
-  height: 40px;
+  height: 30px;
   border: 0;
   background: none;
 }
