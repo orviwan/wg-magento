@@ -3402,7 +3402,7 @@ a.skip-link {
 @media only screen and (max-width: 770px) {
   #header-account li a,
   .nav-primary a.level0 {
-    padding: 0 15px 0 25px;
+    padding: 0 15px 0 15px;
     border-bottom: 1px solid #CCCCCC;
     text-align: left;
     color: #53494a;
@@ -3445,7 +3445,7 @@ a.skip-link {
   }
 
   .nav-primary {
-    margin-left: -25px;
+    margin-left: -15px;
   }
 }
 @media only screen and (max-width: 770px) {
