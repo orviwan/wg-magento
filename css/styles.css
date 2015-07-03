@@ -10787,3 +10787,11 @@ div.calendar table td.button {
   font-family: "Archer-Medium", Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 130%;
 }
+
+.products-list > li .product-image {
+  width: 25%;
+}
+
+.products-list .product-shop {
+  width: 75%;
+}
