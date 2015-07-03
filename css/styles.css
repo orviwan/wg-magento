@@ -10733,6 +10733,11 @@ div.calendar table td.button {
 .wg-grid .wg-col .block-title {
   border-top: 0;
 }
+.wg-grid .wg-col img.responsive {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
 .wg-grid .wg-md1 {
   width: 6.5%;
   margin-right: 2%;
