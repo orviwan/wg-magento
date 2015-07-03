@@ -8554,3 +8554,8 @@ div.calendar table td.button {
 .more-views h2 {
   display: none;
 }
+
+.std {
+  font-family: "Archer-Medium", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 130%;
+}
