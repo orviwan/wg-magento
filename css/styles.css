@@ -10707,3 +10707,58 @@ div.calendar table td.button {
     margin-bottom: 0;
   }
 }
+
+.wg-grid {
+  /*
+  padding: $box-spacing;
+  margin-bottom:  $box-spacing;
+  */
+  overflow: hidden;
+}
+.wg-grid .wg-row {
+  margin-bottom: 1.5em;
+}
+.wg-grid .wg-row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.wg-grid .wg-row:last-of-type {
+  margin-bottom: 0;
+}
+.wg-grid .wg-col {
+  display: inline;
+  float: left;
+}
+.wg-grid .wg-col .block-title {
+  border-top: 0;
+}
+.wg-grid .wg-md1 {
+  width: 6.5%;
+  margin-right: 2%;
+}
+.wg-grid .wg-md2 {
+  width: 14.6%;
+  margin-right: 2%;
+}
+.wg-grid .wg-md3 {
+  width: 23.5%;
+  margin-right: 2%;
+}
+.wg-grid .wg-md4 {
+  width: 32%;
+  margin-right: 2%;
+}
+.wg-grid .wg-last {
+  margin-right: 0;
+}
+@media only screen and (max-width: 770px) {
+  .wg-grid .wg-col {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1.5em;
+  }
+  .wg-grid .wg-row {
+    margin-bottom: 0;
+  }
+}

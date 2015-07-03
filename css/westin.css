@@ -270,3 +270,17 @@ body.cms-home .slideshow-container {
   font: italic 18px/28px Georgia, "Times New Roman", Times, serif;
   color: #656565;
 }
+
+.footer {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.footer .block-subscribe {
+  width: auto;
+  padding: 0;
+}
+.footer .button {
+  padding: 7px 10px;
+}
+.footer .block-title {
+  font-family: "GothamBold-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
