@@ -10762,9 +10762,6 @@ div.calendar table td.button {
     margin-right: 0;
     clear: none;
   }
-  .wg-grid .wg-row {
-    margin-bottom: 0;
-  }
 }
 @media only screen and (max-width: 599px) {
   .wg-grid .wg-col {
