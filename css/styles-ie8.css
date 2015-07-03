@@ -8545,3 +8545,7 @@ div.calendar table td.button {
 .wg-grid .wg-last {
   margin-right: 0;
 }
+
+.more-views h2 {
+  display: none;
+}

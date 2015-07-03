@@ -10762,3 +10762,7 @@ div.calendar table td.button {
     margin-bottom: 0;
   }
 }
+
+.more-views h2 {
+  display: none;
+}
