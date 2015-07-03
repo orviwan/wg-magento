@@ -10795,3 +10795,19 @@ div.calendar table td.button {
 .products-list .product-shop {
   width: 75%;
 }
+
+.std table {
+  width: 100%;
+  border: solid 1px #CCCCCC;
+}
+.std table th, .std table td {
+  padding: 4px;
+  border-color: #CCCCCC;
+}
+.std table thead tr td, .std table thead tr th {
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+.std table tbody tr:nth-child(even) td {
+  background-color: #f0f0f0;
+}
