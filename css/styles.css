@@ -10754,6 +10754,20 @@ div.calendar table td.button {
 }
 @media only screen and (max-width: 770px) {
   .wg-grid .wg-col {
+    width: 49%;
+    margin-bottom: 1.5em;
+    clear: left;
+  }
+  .wg-grid .wg-col:nth-child(even) {
+    margin-right: 0;
+    clear: none;
+  }
+  .wg-grid .wg-row {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .wg-grid .wg-col {
     width: 100%;
     margin-right: 0;
     margin-bottom: 1.5em;
