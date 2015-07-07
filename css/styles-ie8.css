@@ -8583,3 +8583,8 @@ div.calendar table td.button {
 .std table tbody tr:nth-child(even) td {
   background-color: #f0f0f0;
 }
+
+.postTitle .featuredImage {
+  min-width: 100%;
+  max-width: 100%;
+}
