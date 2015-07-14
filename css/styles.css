@@ -10839,58 +10839,84 @@ div.calendar table td.button {
 }
 
 .icons-sprite, .icons-assured-food, .icons-butchers-guild, .icons-freedom-food, .icons-quality-beef, .icons-quality-lamb, .icons-quality-veal, .icons-social-facebook, .icons-social-gplus, .icons-social-instagram, .icons-social-pinterest, .icons-social-twitter, .icons-soil-assoc, .icons-taste-2013 {
-  background-image: url('../images/icons-sc51bf9ca96.png');
+  background-image: url('../images/icons-s917fd5de3d.png');
   background-repeat: no-repeat;
 }
 
 .icons-assured-food {
   background-position: 0 0;
+  height: 57px;
+  width: 54px;
 }
 
 .icons-butchers-guild {
-  background-position: 0 -57px;
+  background-position: 0 -67px;
+  height: 57px;
+  width: 51px;
 }
 
 .icons-freedom-food {
-  background-position: 0 -114px;
+  background-position: 0 -134px;
+  height: 57px;
+  width: 58px;
 }
 
 .icons-quality-beef {
-  background-position: 0 -171px;
+  background-position: 0 -201px;
+  height: 57px;
+  width: 102px;
 }
 
 .icons-quality-lamb {
-  background-position: 0 -228px;
+  background-position: 0 -268px;
+  height: 57px;
+  width: 103px;
 }
 
 .icons-quality-veal {
-  background-position: 0 -285px;
+  background-position: 0 -335px;
+  height: 57px;
+  width: 102px;
 }
 
 .icons-social-facebook {
-  background-position: 0 -342px;
+  background-position: 0 -402px;
+  height: 50px;
+  width: 52px;
 }
 
 .icons-social-gplus {
-  background-position: 0 -392px;
+  background-position: 0 -462px;
+  height: 54px;
+  width: 53px;
 }
 
 .icons-social-instagram {
-  background-position: 0 -446px;
+  background-position: 0 -526px;
+  height: 50px;
+  width: 52px;
 }
 
 .icons-social-pinterest {
-  background-position: 0 -496px;
+  background-position: 0 -586px;
+  height: 53px;
+  width: 54px;
 }
 
 .icons-social-twitter {
-  background-position: 0 -549px;
+  background-position: 0 -649px;
+  height: 52px;
+  width: 54px;
 }
 
 .icons-soil-assoc {
-  background-position: 0 -601px;
+  background-position: 0 -711px;
+  height: 57px;
+  width: 58px;
 }
 
 .icons-taste-2013 {
-  background-position: 0 -658px;
+  background-position: 0 -778px;
+  height: 57px;
+  width: 57px;
 }
