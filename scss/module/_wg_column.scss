@@ -1,0 +1,75 @@
+
+.wg-grid {
+	/*
+	padding: $box-spacing;
+	margin-bottom:  $box-spacing;
+	*/
+	overflow: hidden;
+
+	.wg-row {
+		margin-bottom: $b-margin-bottom;
+		&:after {
+			@include clearfix;
+		}
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+	.wg-col {
+		display: inline;
+		float: left;
+		.block-title {
+			border-top: 0;
+		}
+		img.responsive {
+			width: 100%;
+			max-width: 100%;
+			height: 100%;
+		}
+	}
+	.wg-md1 {
+		width: 6.5%;
+		margin-right: 2%;
+	}
+	.wg-md2 {
+		width: 14.6%;
+		margin-right: 2%;
+	}
+	.wg-md3 {
+		width: 23.5%;
+		margin-right: 2%;
+	}
+	.wg-md4 {
+		width: 32%;
+		margin-right: 2%;
+	}
+
+	.wg-last {
+		margin-right: 0;
+	}
+
+	@include bp(max-width, $bp-medium) {
+		.wg-col {
+			width: 49%;
+			margin-bottom: $b-margin-bottom;
+			clear: left;
+		}
+		.wg-col:nth-child(even) {
+			margin-right: 0;
+			clear: none;
+		}
+
+	}
+
+	@include bp(max-width, $bp-small) {
+		.wg-col {
+			width: 100%;
+			margin-right: 0;
+			margin-bottom: $b-margin-bottom;
+		}
+		.wg-row {
+			margin-bottom: 0;
+		}
+	}
+
+}

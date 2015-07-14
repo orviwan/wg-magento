@@ -1,0 +1,32 @@
+.more-views h2 {
+    display: none;
+}
+
+.std {
+    font-family: $f-stack-serif;
+    font-size: 130%;
+}
+
+.products-list > li .product-image {
+    width: 25%;
+}
+
+.products-list .product-shop {
+    width: 75%;
+}
+
+.std table {
+    width: 100%;
+    border: solid 1px $c-fieldset-border;
+    th, td {
+        padding: 4px;
+        border-color: $c-fieldset-border;
+    }
+    thead tr td, thead tr th {
+        font-weight: bold;
+        background-color: $c-light;
+    }
+    tbody tr:nth-child(even) td {
+        background-color: $c-light;
+    }
+}
