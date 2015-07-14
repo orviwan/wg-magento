@@ -21,7 +21,7 @@
 // @package     rwd_default
 // @copyright   Copyright (c) 2006-2015 X.commerce, Inc. (http://www.magento.com)
 // @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
-// 
+//
 
 // ==============================================
 // Maddison Island Specific Components
@@ -33,9 +33,8 @@ $mq-fixed-value: false;
 @import "framework";
 
 // ----------------------------------------------
-// Content 
+// Content
 
 @import "content/home";
 @import "content/category";
-@import "content/footer";
-
+@import "content/footer"; 

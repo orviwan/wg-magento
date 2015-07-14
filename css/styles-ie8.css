@@ -8609,3 +8609,60 @@ div.calendar table td.button {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+
+.icons-sprite, .icons-assured-food, .icons-butchers-guild, .icons-freedom-food, .icons-quality-beef, .icons-quality-lamb, .icons-quality-veal, .icons-social-facebook, .icons-social-gplus, .icons-social-instagram, .icons-social-pinterest, .icons-social-twitter, .icons-soil-assoc, .icons-taste-2013 {
+  background-image: url('../images/icons-sc51bf9ca96.png');
+  background-repeat: no-repeat;
+}
+
+.icons-assured-food {
+  background-position: 0 0;
+}
+
+.icons-butchers-guild {
+  background-position: 0 -57px;
+}
+
+.icons-freedom-food {
+  background-position: 0 -114px;
+}
+
+.icons-quality-beef {
+  background-position: 0 -171px;
+}
+
+.icons-quality-lamb {
+  background-position: 0 -228px;
+}
+
+.icons-quality-veal {
+  background-position: 0 -285px;
+}
+
+.icons-social-facebook {
+  background-position: 0 -342px;
+}
+
+.icons-social-gplus {
+  background-position: 0 -392px;
+}
+
+.icons-social-instagram {
+  background-position: 0 -446px;
+}
+
+.icons-social-pinterest {
+  background-position: 0 -496px;
+}
+
+.icons-social-twitter {
+  background-position: 0 -549px;
+}
+
+.icons-soil-assoc {
+  background-position: 0 -601px;
+}
+
+.icons-taste-2013 {
+  background-position: 0 -658px;
+}
