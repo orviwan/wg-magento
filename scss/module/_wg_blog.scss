@@ -28,7 +28,6 @@
   }
 }
 */
-
 .std {
   blockquote{
     display:block;
@@ -39,22 +38,20 @@
 
     /*Font*/
     text-align: justify;
-    font-size: 19px;
+
 
     /*Borders - (Optional)*/
-    border-left: 15px solid $c-highlight;
-    border-right: 2px solid $c-highlight;
+    border-left: 15px solid $c-dark;
+    border-right: 2px solid $c-dark;
 
     /*Box Shadow - (Optional)*/
     -moz-box-shadow: 2px 2px 10px #ccc;
     -webkit-box-shadow: 2px 2px 10px #ccc;
-    box-shadow: 2px 2px 15px #ccc;
-    
-    strong {
-      font-weight: bold;
-    }
+    box-shadow: 2px 2px 10px #ccc;
+
     p {
       margin-bottom: 0;
+      font-size: 19px;
     }
   }
 
