@@ -39,6 +39,7 @@
 
     /*Font*/
     text-align: justify;
+    font-size: 19px;
 
     /*Borders - (Optional)*/
     border-left: 15px solid $c-module-border-light;
@@ -48,6 +49,12 @@
     -moz-box-shadow: 2px 2px 15px #ccc;
     -webkit-box-shadow: 2px 2px 15px #ccc;
     box-shadow: 2px 2px 15px #ccc;
+    strong {
+      font-weight: bold;
+    }
+    p {
+      margin-bottom: 0;
+    }
   }
 
   blockquote::before{
@@ -62,7 +69,7 @@
     /*Positioning*/
     position: absolute;
     left: 10px;
-    top:5px;
+    top: 0;
   }
 
   blockquote::after{

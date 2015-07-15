@@ -8626,6 +8626,7 @@ div.calendar table td.button {
   position: relative;
   /*Font*/
   text-align: justify;
+  font-size: 19px;
   /*Borders - (Optional)*/
   border-left: 15px solid #EDEDED;
   border-right: 2px solid #EDEDED;
@@ -8633,6 +8634,12 @@ div.calendar table td.button {
   -moz-box-shadow: 2px 2px 15px #ccc;
   -webkit-box-shadow: 2px 2px 15px #ccc;
   box-shadow: 2px 2px 15px #ccc;
+}
+.std blockquote strong {
+  font-weight: bold;
+}
+.std blockquote p {
+  margin-bottom: 0;
 }
 .std blockquote::before {
   content: "\201C";
@@ -8645,7 +8652,7 @@ div.calendar table td.button {
   /*Positioning*/
   position: absolute;
   left: 10px;
-  top: 5px;
+  top: 0;
 }
 .std blockquote::after {
   /*Reset to make sure*/
