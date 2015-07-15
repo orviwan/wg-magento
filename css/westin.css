@@ -284,3 +284,6 @@ body.cms-home .slideshow-container {
 .footer .block-title {
   font-family: "GothamBold-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.footer .footer-awards {
+  float: right;
+}
