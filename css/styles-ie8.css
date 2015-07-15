@@ -8698,3 +8698,9 @@ div.calendar table td.button {
   height: 57px;
   width: 57px;
 }
+
+.icons-sprites {
+  display: inline-block;
+  text-indent: -999em;
+  margin-left: 10px;
+}

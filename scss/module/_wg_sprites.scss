@@ -3,3 +3,10 @@ $icons-sprite-dimensions: true;
 $icons-spacing: 10px;
 @import "icons/*.png";
 @include all-icons-sprites;
+
+
+.icons-sprites {
+  display: inline-block;
+  text-indent: -999em;
+  margin-left: 10px;
+}
