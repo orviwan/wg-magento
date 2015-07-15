@@ -10846,7 +10846,7 @@ div.calendar table td.button {
   }
 }
 */
-.cms-page-view .std blockquote {
+.std blockquote {
   display: block;
   background: #fff;
   padding: 15px 20px 15px 45px;
@@ -10862,11 +10862,11 @@ div.calendar table td.button {
   -webkit-box-shadow: 2px 2px 10px #ccc;
   box-shadow: 2px 2px 10px #ccc;
 }
-.cms-page-view .std blockquote p {
+.std blockquote p {
   margin-bottom: 0;
-  font-size: 19px;
+  font-size: 19px !important;
 }
-.cms-page-view .std blockquote::before {
+.std blockquote::before {
   content: "\201C";
   /*Unicode for Left Double Quote*/
   /*Font*/
@@ -10879,7 +10879,7 @@ div.calendar table td.button {
   left: 10px;
   top: 0;
 }
-.cms-page-view .std blockquote::after {
+.std blockquote::after {
   /*Reset to make sure*/
   content: "";
 }
