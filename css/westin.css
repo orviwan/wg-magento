@@ -285,5 +285,13 @@ body.cms-home .slideshow-container {
   font-family: "GothamBold-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .footer .footer-awards {
+  padding-top: 20px;
+  border-top: 1px solid #EDEDED;
+}
+.footer .footer-awards .awards-inner {
   float: right;
+}
+.footer .address {
+  margin-top: 10px;
+  padding: 20px 0;
 }

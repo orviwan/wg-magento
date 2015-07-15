@@ -13,6 +13,15 @@
 	}
 
 	.footer-awards {
-		float: right;
+		padding-top: 20px;
+		border-top: 1px solid $c-module-border-light;
+		.awards-inner {
+			float: right;
+		}
+	}
+
+	.address {
+		margin-top: 10px;
+		padding: 20px 0;
 	}
 }
