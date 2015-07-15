@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* 
+/*
 grey #f0f0f0
 lightbrown #c19e82
 dark brown #53494a
@@ -1153,7 +1153,7 @@ a.button:hover {
  */
 .breadcrumbs {
   overflow: hidden;
-  margin: -15px 0 15px -7px;
+  margin: -15px 0 15px 4px;
 }
 
 .breadcrumbs li {
@@ -3498,7 +3498,10 @@ a.skip-link {
   #header-nav {
     display: block;
     /* Force visibility */
+    border-top: 1px solid #EDEDED;
     border-bottom: 1px solid #EDEDED;
+    background-color: #fcfcfc;
+    margin-top: 1.5em;
   }
 }
 /* ============================================ *
@@ -3523,6 +3526,9 @@ a.skip-link {
 }
 .nav-primary li {
   position: relative;
+}
+.nav-primary :first-child {
+  margin-left: 7px;
 }
 .nav-primary li.level1 a {
   border-bottom: 1px solid #CCCCCC;

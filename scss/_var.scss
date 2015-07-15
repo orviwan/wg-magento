@@ -86,13 +86,14 @@ $max-std-formatted-width: 50em;
 // Usually not used directly in Sass partials.
 // Only used to define context-based color vars in this file.
 
-/* 
+/*
 grey #f0f0f0
 lightbrown #c19e82
 dark brown #53494a
 plumb #890c4d
 */
 $c-light: #f0f0f0;
+$c-vlight: #fcfcfc;
 $c-medium: #c19e82;
 $c-dark: #53494a;
 $c-highlight: #890c4d;
