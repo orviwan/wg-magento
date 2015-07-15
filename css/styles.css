@@ -10933,6 +10933,7 @@ div.calendar table td.button {
   margin-left: 10px;
   margin-bottom: 10px;
 }
-.icons-sprite :hover, .icons-assured-food :hover, .icons-butchers-guild :hover, .icons-freedom-food :hover, .icons-quality-beef :hover, .icons-quality-lamb :hover, .icons-quality-veal :hover, .icons-social-facebook :hover, .icons-social-gplus :hover, .icons-social-instagram :hover, .icons-social-pinterest :hover, .icons-social-twitter :hover, .icons-soil-assoc :hover, .icons-taste-2013 :hover {
+
+.icons-sprite:hover, .icons-assured-food:hover, .icons-butchers-guild:hover, .icons-freedom-food:hover, .icons-quality-beef:hover, .icons-quality-lamb:hover, .icons-quality-veal:hover, .icons-social-facebook:hover, .icons-social-gplus:hover, .icons-social-instagram:hover, .icons-social-pinterest:hover, .icons-social-twitter:hover, .icons-soil-assoc:hover, .icons-taste-2013:hover {
   opacity: 0.8;
 }
