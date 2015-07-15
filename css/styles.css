@@ -10927,7 +10927,7 @@ div.calendar table td.button {
   width: 57px;
 }
 
-.icons-sprites {
+.icons-sprite, .icons-assured-food, .icons-butchers-guild, .icons-freedom-food, .icons-quality-beef, .icons-quality-lamb, .icons-quality-veal, .icons-social-facebook, .icons-social-gplus, .icons-social-instagram, .icons-social-pinterest, .icons-social-twitter, .icons-soil-assoc, .icons-taste-2013 {
   display: inline-block;
   text-indent: -999em;
   margin-left: 10px;
