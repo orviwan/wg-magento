@@ -8594,6 +8594,24 @@ div.calendar table td.button {
   background-color: #f0f0f0;
 }
 
+.product-view .product-shop .price-info {
+  max-width: auto;
+}
+
+.product-view .product-shop .price-info {
+  float: none;
+  padding-left: 0;
+}
+
+.price-box {
+  margin-left: 0;
+}
+
+.product-view .product-shop .price-box .special-price {
+  float: left;
+  padding-left: 0;
+}
+
 .postTitle .featuredImage {
   min-width: 100%;
   max-width: 100%;
