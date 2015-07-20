@@ -10849,6 +10849,10 @@ div.calendar table td.button {
   padding-left: 0;
 }
 
+.product-view .product-shop .price-box .special-price .price {
+  font-size: 34px;
+}
+
 .postTitle .featuredImage {
   min-width: 100%;
   max-width: 100%;
