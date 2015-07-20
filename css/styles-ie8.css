@@ -8553,6 +8553,9 @@ div.calendar table td.button {
   width: 32%;
   margin-right: 2%;
 }
+.wg-grid .wg-md12 {
+  width: 100%;
+}
 .wg-grid .wg-last {
   margin-right: 0;
 }
