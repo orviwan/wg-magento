@@ -141,6 +141,17 @@
     opacity: 0.8;
 }
 
+@include bp(max-width, $bp-medium) {
+    .logo {
+      width: 100%;
+      padding-bottom: 0;
+      img {
+        margin: 0 auto;
+      }
+    }
+
+}
+
 // ---------------------------------------------
 
 @include bp(min-width, $bp-medium + 1) {
@@ -337,7 +348,7 @@ a.skip-link {
 
     @include bp(max-width, $bp-medium) {
         position: static;
-    } 
+    }
 }
 
 
@@ -365,5 +376,3 @@ a.skip-link {
         border-bottom: 1px solid $c-module-border;
     }
 }
-
-
