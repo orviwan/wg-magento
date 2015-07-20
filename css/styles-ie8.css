@@ -8574,6 +8574,10 @@ div.calendar table td.button {
   width: 75%;
 }
 
+.price-box .old-price .price-label, .price-box .special-price .price-label {
+  display: inline-block;
+}
+
 .std table {
   width: 100%;
   border: solid 1px #CCCCCC;
