@@ -8630,6 +8630,10 @@ div.calendar table td.button {
   width: 50%;
   display: inline-block;
   text-align: center;
+  border: solid 1px #e0e0e0;
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #f0f0f0;
 }
 
 .postTitle .featuredImage {
