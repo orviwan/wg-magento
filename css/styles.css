@@ -10860,6 +10860,15 @@ div.calendar table td.button {
   color: #111;
 }
 
+.product-view .product-shop .servings-info {
+  overflow: hidden;
+}
+.product-view .product-shop .servings-info div {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
 .postTitle .featuredImage {
   min-width: 100%;
   max-width: 100%;
